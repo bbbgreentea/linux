@@ -1,0 +1,7 @@
+1. su root
+2. cd /etc
+3. chmod 777 sudoers
+4. vi sudoers
+   find ->		root			ALL=(ALL)	ALL
+   add	->		"user name"		ALL=(ALL)	ALL
+5. chmod 440 sudoers
